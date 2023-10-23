@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!--
     <header class="header">
       <div class="container header-container">
         <nav class="nav-header header-container">
@@ -51,7 +50,97 @@
           </ul>
         </address>
       </div>
-    </header>-->
+      <div class="mob-menu">
+         <div class="mob-div-top">
+          <button class="menu-header-btn" type="button"><button class="modal-btn" type="button">
+          <svg class="header-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+         </button> 
+          <ul class="mob-link">
+            <li class="mob-list-item">
+              <a class="mob-menu-link" href="./index.html">Studio</a>
+            </li>
+            <li class="mob-list-item">
+              <a class="mob-menu-link" href="">Portfolio</a>
+            </li>
+            <li class="mob-list-item">
+              <a class="mob-menu-link" href="">Contacts</a>
+            </li>
+          </ul>
+          </div>
+          <div class="mob-div-bottom">
+           <address class="mob-adress">
+          <ul class="mob-adress">
+            <li class="address-mob-item">
+              <a class="mob-item-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-mob-item">
+              <a class="mob-item-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+         <ul class="mob-icons-menu">
+                  <li class="mob-list-icons">
+                    <a
+                      class="mob-icons"
+                      target="_blank"
+                      href="index.html"
+                    >
+                      <svg class="mob-icons-svg" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mob-list-icons">
+                    <a
+                      class="mob-icons"
+                      target="_blank"
+                      href="index.html"
+                    >
+                      <svg class="mob-icons-svg" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mob-list-icons">
+                    <a
+                      class="mob-icons"
+                      target="_blank"
+                      href="index.html"
+                    >
+                      <svg class="mob-icons-svg" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mob-list-icons">
+                    <a
+                      class="mob-icons"
+                      target="_blank"
+                      href="index.html"
+                    >
+                      <svg class="mob-icons-svg" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                </div>
+      </div>
+      <div class="second-header">
+         <a class="header-logo" href="./index.html"
+            >Web<span class="header-studio-logo">Studio</span></a
+          >
+          <svg class="second-header-icon" width="24" height="24">
+            <use href="./images/icons.svg#second-header-icon"></use>
+          </svg>
+      </div>
+    </header>
     <main>
       <section class="main-title">
         <div class="container title-container">
@@ -120,6 +209,7 @@
           <ul class="colleagues-bye">
             <li class="bye-list-item">
               <img
+              srcset="./images/man1.jpg 1x, /.images/men1-2x.jpg 2x"
                 src="./images/man1.jpg"
                 alt="first office worker"
                 width="264"
@@ -179,6 +269,7 @@
             </li>
             <li class="bye-list-item">
               <img
+                srcset="./images/man2.jpg 1x, ./images/men-2-2x.jpg 2x"
                 src="./images/man2.jpg"
                 alt="second office worker"
                 width="264"
@@ -238,6 +329,7 @@
             </li>
             <li class="bye-list-item">
               <img
+                srcset="./images/women.jpg 1x, ./images/woomen-2x.jpg 2x"
                 src="./images/women.jpg"
                 alt="third office worker"
                 width="264"
@@ -297,6 +389,7 @@
             </li>
             <li class="bye-list-item">
               <img
+                srcset="./images/man3.jpg 1x, .images/men3-2x.jpg 2x"
                 src="./images/man3.jpg"
                 alt="fourth office worker"
                 width="264"
@@ -365,6 +458,7 @@
             <li class="offer-list-item portfolio-item">
               <div class="our-portfolio-img">
                 <img
+                  srcset="./images/banking.jpg 1x, ./images/img-1-2x.jpg 2x"
                   src="./images/banking.jpg"
                   alt="Banking App"
                   width="360"
@@ -385,6 +479,7 @@
             <li class="offer-list-item portfolio-item">
               <div class="our-portfolio-img">
                 <img
+                  srcset="./images/cashles.jpg 1x, ./images/img-2-2x.jpg 2x"
                   src="./images/cashles.jpg"
                   alt="Cashless Payment"
                   width="360"
@@ -404,6 +499,7 @@
             <li class="offer-list-item portfolio-item">
               <div class="our-portfolio-img">
                 <img
+                  srcset="./images/meditation.jpg 1x, ./images/img-3-2x.jpg 2x"
                   src="./images/meditation.jpg"
                   alt="meditation"
                   width="360"
@@ -423,6 +519,7 @@
             <li class="offer-list-item portfolio-item">
               <div class="our-portfolio-img">
                 <img
+                  srcset="./images/taxi.jpg 1x, ./images/img-4-2x.jpg 2x"
                   src="./images/taxi.jpg"
                   alt="taxi"
                   width="360"
@@ -442,6 +539,7 @@
             <li class="offer-list-item portfolio-item">
               <div class="our-portfolio-img">
                 <img
+                  srcset="./images/screen.jpg 1x, ./images/img-5-2x.jpg 2x"
                   src="./images/screen.jpg"
                   alt="screen"
                   width="360"
@@ -461,6 +559,7 @@
             <li class="offer-list-item portfolio-item">
               <div class="our-portfolio-img">
                 <img
+                  srcset="./images/online.jpg 1x, ./images/img-6-2x.jpg 2x"
                   src="./images/online.jpg"
                   alt="online"
                   width="360"
