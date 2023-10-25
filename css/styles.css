@@ -127,7 +127,7 @@ img {
    height: 100vh;
    background-color: #fff;
 z-index: 99;
-padding: 72px 24px 40px 16px;
+padding: 24px 24px 40px 16px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -190,20 +190,24 @@ text-transform: capitalize;
 }
 
 .mob-adress {
-   margin-bottom: 24px;
+   margin-bottom: 48px;
+   display: block;
 }
-.addres-mob-item:not(:last-child) {
+.address-mob-item:not(:last-child){
    margin-bottom: 24px;
-
 }
 .mob-item-link {
-   color: var(--IRIS, #4D5AE5);
+   color: var(--IRIS, #434455);
 font-family: Roboto;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.2em; 
 letter-spacing: 0.02em;
+}
+.mob-item-link:hover,
+.mob-item-link:focus{
+     color: var(--IRIS, #4D5AE5);
 }
 .mob-icons-menu {
    display: flex;
@@ -340,7 +344,7 @@ letter-spacing: 0.02em;
   max-width: 496px;
     max-width: 496px;
   color: var(--WHITE, #fff);
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.1em;
   letter-spacing: 0.02em;
@@ -408,10 +412,16 @@ letter-spacing: 0.02em;
         url(../images/Dark-bg-2x.jpg);
     }
   }
+  .title{
+   font-size: 56px;
+  }
 }
  @media screen and (min-width: 1158px){
    .title-container{
     max-width: 1158px;
+   }
+    .title{
+   font-size: 56px;
    }
    .main-title{
       
@@ -469,8 +479,8 @@ width: 100%;
 .priority {
     display: flex;
   justify-content: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .priority-hello-introduction {
@@ -495,6 +505,10 @@ width: 100%;
 display: none;
 }
 @media screen and (min-width: 768px) {
+   .priority{
+      padding-top: 96px;
+      padding-bottom: 96px;
+   }
    .container{
       max-width: 766px;
    }
@@ -517,8 +531,14 @@ display: none;
    }
 }
 @media screen and (min-width: 1158px){
+   .priority{
+      padding-top: 120px;
+      padding-bottom: 120px;
+   }
    .container{
       max-width: 1158px;
+      padding-left: 15px;
+      padding-right: 15px;
    }
 .prioriti-svg-icon{
   
@@ -692,11 +712,11 @@ flex-direction: row;
 @media screen and (min-width: 1158px) {
   .colleagues-container {
     max-width: 1158px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+   
   }
   .colleagues{
-   padding: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
@@ -795,7 +815,7 @@ flex-direction: row;
  flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 72px;
+    row-gap: 48px;
    }
    .portfolio-item{
       width: 356px;
@@ -804,10 +824,12 @@ flex-direction: row;
 @media screen and (min-width: 1158px) {
   .portfolio-container {
     max-width: 1158px;
-    padding-top: 120px;
-    padding-bottom: 120px;
   }
   
+.our-portfolio{
+       padding-top: 120px;
+    padding-bottom: 120px;
+}
 }
 
 @media (min-width: 1158px) {
@@ -1033,7 +1055,7 @@ max-width: 584px;
       margin-right: 120px;
    }
    .footer-paragraph-content{
-      margin-right: 80px;
+      margin-right: auto;
    }
 }
 .overlay {
