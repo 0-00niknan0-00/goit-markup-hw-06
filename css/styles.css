@@ -318,7 +318,7 @@ letter-spacing: 0.02em;
   max-width: 1440px;
   margin: 0 auto;
   position: relative;
- padding: 72px;
+ padding: 72px 0;
   overflow: hidden;
   z-index: 1;
 }
@@ -349,13 +349,7 @@ letter-spacing: 0.02em;
   line-height: 1.1em;
   letter-spacing: 0.02em;
   margin: 0 auto;
-  /*
-  color: var(--WHITE, #fff);
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07em;
-  letter-spacing: 0.02em;
-  margin: 0 auto;*/
+ 
 }
 .button-title {
   display: block;
